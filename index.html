@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fanimation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- COUNT API  -->
+    <link  href="https://api.countapi.xyz/update/mouse/laptop/?amount=1">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="Stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- header section starts  -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">Fanimation<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about us</a>
+        <a href="#products">gallery</a>
+        <a href="#popular">latest products</a>
+        <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <!-- <a href="#" class="fas fa-heart"></a> -->
+        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+        <a id="count" href="#" class="fas fa-eye"><span>0</span> </a> 
+
+        <a href="#" class="fas fa-user dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#log" style="width: 100px; font-size: 15px; cursor: pointer;">
+              Login</a></li>
+            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#Modal" style="width: 100px; font-size: 15px; cursor: pointer;">
+              register</a></li>     
+          </ul>
+         
+        
+    </div>
+    
+   
+</header>
+
+  <!-- login page -->
+
+  <div class="modal fade" id="log" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" id="login">
+      <div class="modal-content">
+        <div class="modal-button">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right;"></button>
+        </div>
+        <div class="modal-header">
+          <h2 class="modal-title" id="ModalLabel">Login</h2>
+        </div>
+        <div class="modal-body">
+          <input type="email" placeholder="Enter Your Email" class="form-control" id="form">
+          <input type="password" placeholder="Enter Your password" class="form-control" id="form">
+          <input class="form-check-input" type="checkbox" id="form1" style="margin-top: 21px; height: 12px;">
+          <label class="form-check-label" for="form1" style="margin-top: 17px; font-size: 13px;"> Remember password </label>
+          <button class="form-control" id="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Registration page -->
+
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" id="register">
+    <div class="modal-content">
+      <div class="modal-button">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right;"></button>
+      </div>
+      <div class="modal-header">
+        <h2 class="modal-title" id="ModalLabel">Registration</h2>
+      </div>
+      <div class="modal-body">
+        <input type="text" placeholder="Enter Your First Name" class="form-control" id="form">
+        <input type="text" placeholder="Enter Your Last Name" class="form-control" id="form">
+        <input type="email" placeholder="Enter Your Email" class="form-control" id="form">
+        <input type="password" placeholder="Enter Your password" class="form-control" id="form">
+        <input type="password" placeholder="Repeat Your password" class="form-control" id="form">
+        <button class="form-control" id="submit">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- header section ends -->
+
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Elegant Design</h3>
+        <span> Innovative Performance </span>
+        <p style="color: #333;">Unique design for easyto install & easy to clear.
+
+            Enhanced aerodynamic desgin for noiseless performance.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+    <div>
+        <img src="images/home.png" width="100%">
+    </div>
+    
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about" style="margin-top: 0px;">
+
+    <h1 class="heading"> <span> about </span> us </h1>
+
+    <div class="row">
+
+        <div class="video-container">
+            <video src="images/fan.mp4" loop autoplay muted></video>
+            <h3>best fans seller</h3>
+        </div>
+
+        <div class="content">
+            <h3>About Us</h3>
+            <p>Fanimation is in the business of revolutionizing home appliances, by solving one
+                problem at a time. Every household appliance we create blends mindful design, energy-
+                efficiency and next-gen smart tech.
+                We think, dream and obsess over customer experience. We are Fanimation.
+                Fanimation is a global manufacturer of standard and custom fans and fan accessories.
+                With over 40 years of experience, Fanimation has been supplying quality engineered
+                cooling products and assemblies to a wide range of industries and applications.
+                Fanimation has engineering, sales, and manufacturing facilities.
+                Fanimation strives hard to be environmentally friendly. We encourage you to browse our
+                products online, which includes all the latest information on our great products and
+                styles.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- review section starts  -->
+
+<section class="team">
+
+    <h1 class="heading"> our <span>team</span> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>To pursue a challenging career in a growing, dynamic and organization providing competitive work environment.</p>
+            <div class="user">
+                <img src="images/ubaid.JPG" alt="">
+                <div class="user-info">
+                    <h3>ubaid ullah</h3>
+                    <span>web developer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Team player. ready to work under pressure, flexible, honest, hardworking and good at communication.</p>
+            <div class="user">
+                <img src="images/ashywn.jfif" alt="">
+                <div class="user-info">
+                    <h3>ashwyn</h3>
+                    <span>web developer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Able to react effectively under stress and emergencies Seeing position that would untilize my skill and challenge.</p>
+            <div class="user">
+                <img src="images/mark.jpg" alt="">
+                <div class="user-info">
+                    <h3>mark gill</h3>
+                    <span>web developer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Team player. ready to work under pressure, flexible, honest, hardworking and good at communication.</p>
+            <div class="user">
+                <img src="images/ayesha.jfif" alt="">
+                <div class="user-info">
+                    <h3>ayesha</h3>
+                    <span>web developer</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    
+    </div>
+        
+    </section>
+    
+    <!-- review section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container" style="margin-top: 100px;">
+
+    <div class="icons">
+        <img src="images/icon-1.png" alt="">
+        <div class="info">
+            <h3>free delivery</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-2.png" alt="">
+        <div class="info">
+            <h3>10 days returns</h3>
+            <span>moneyback guarantee</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-3.png" alt="">
+        <div class="info">
+            <h3>offer & gifts</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-4.png" alt="">
+        <div class="info">
+            <h3>secure paymens</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+   
+</section>
+
+<!-- icons section ends -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products" id="products" style="margin-top: 100px;">
+
+    <h1 class="heading"> <span>g</span>allery<span>.</span> </h1>
+
+    <!-- selection -->
+
+    <div class="wrapper">
+        <!-- filter Items -->
+        <nav>
+          <div class="items">
+            <span class="item active" data-name="all">All</span>
+            <span class="item" data-name="bag">ceiling</span>
+            <span class="item" data-name="shoe">pedestal</span>
+            <span class="item" data-name="watch">Wall</span>
+            <span class="item" data-name="camera">exhaust</span>
+            <span class="item" data-name="headphone">accessories</span>
+          </div>
+        </nav>
+        <!-- filter Images -->
+        <div class="gallery">
+            <!-- ceiling -->
+          <div class="image" data-name="bag"><span><img src="images/p10.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="bag"><span><img src="images/p11.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div>  <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="bag"><span><img src="images/p15.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div>  <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="bag"><span><img src="images/p16.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div>  <button class="btn" style="width: 100%;">Add to cart</button></div>
+
+          <!-- pedestal -->
+
+          <div class="image" data-name="shoe"><span><img src="images/ped1.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="shoe"><span><img src="images/ped2.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="shoe"><span><img src="images/ped3.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="shoe"><span><img src="images/ped4.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+
+          <!-- exhaust -->
+
+
+          <div class="image" data-name="camera"><span><img src="images/p9.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="camera"><span><img src="images/p18.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="camera"><span><img src="images/p13.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="camera"><span><img src="images/p12.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+
+          <!-- wall -->
+        
+          <div class="image" data-name="watch"><span><img src="images/wall1.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="watch"><span><img src="images/wall2.png" alt=""></span>  <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div> <button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="watch"><span><img src="images/wall3.png" alt=""></span> <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div><button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="watch"><span><img src="images/wall4.png" alt=""></span> <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div><button class="btn" style="width: 100%;">Add to cart</button></div>
+
+          <!-- accessories -->
+          
+          <!-- <div class="image" data-name="headphone"><span><img src="images/acc1.jpg" alt=""></span> <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div><button class="btn" style="width: 100%;">add to cart</button></div> -->
+          <div class="image" data-name="headphone"><span><img src="images/acc2.webp" alt=""></span> <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div><button class="btn" style="width: 100%;">Add to cart</button></div>
+          <div class="image" data-name="headphone"><span><img src="images/acc3.jpg" alt=""></span> <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div><button class="btn" style="width: 100%;">Add to cart</button></div>
+          <!-- <div class="image" data-name="headphone"><span><img src="images/acc4.jpg" alt=""></span> <div id="sec-id"> elegant <p style="text-align: center ; font-size:1.7rem; color: #333; ">$12.99</p></div><button class="btn" style="width: 100%;">add to cart</button></div> -->
+          
+          
+         
+        </div>
+      </div>
+      
+      
+
+<!-- end -->
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/p10.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Deluxe Standard </h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="images/p11.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Caroma Plus</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/p12.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Super Deluxe</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="images/p14.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Victoria</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-17%</span>
+            <div class="image">
+                <img src="images/p13.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>AC/DC Ceiling Fan</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-3%</span>
+            <div class="image">
+                <img src="images/p15.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>VIP</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-18%</span>
+            <div class="image">
+                <img src="images/p16.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Antique Water Proof</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="images/p17.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Spider (Inverter)</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="images/p18.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+                    <a href="#" class="cart-btn" style="text-decoration: none;">add to cart</a>
+                    <a href="#" class="fas fa-share" style="text-decoration: none;"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Iris (Inverter)</h3>
+                <div class="price"> $12.99 <span>$15.99</span> </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- prodcuts section ends -->
+
+   <!-- gallery -->
+   <section class="popular" id="popular" style="margin-top: 100px;">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price">  $20 </span>
+            <img src="images/p2.png" alt="">
+            <h3>Grace </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="price">  $20 </span>
+            <img src="images/p3.png" alt="">
+            <h3>Caroma Plus</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="price">  $20 </span>
+            <img src="images/p4.png" alt="">
+            <h3>Mega Bracket</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="price">  $20 </span>
+            <img src="images/p6.png" alt="">
+            <h3>TCP</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="price">  $20 </span>
+            <img src="images/p7.png" alt="">
+            <h3>Fancy</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="price">  $20 </span>
+            <img src="images/p8.png" alt="">
+            <h3>Round </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+ 
+      <!-- gallery -->
+
+      <!-- rating -->
+
+      <div class="wrapper1">
+        <input type="radio" name="rate" id="star-1">
+        <input type="radio" name="rate" id="star-2">
+        <input type="radio" name="rate" id="star-3">
+        <input type="radio" name="rate" id="star-4">
+        <input type="radio" name="rate" id="star-5">
+        <div class="content">
+          <div class="outer">
+            <div class="emojis">
+              <li class="slideImg"><img src="images/emoji-1.png" alt=""></li>
+              <li><img src="images/emoji-2.png" alt=""></li>
+              <li><img src="images/emoji-3.png" alt=""></li>
+              <li><img src="images/emoji-4.png" alt=""></li>
+              <li><img src="images/emoji-5.png" alt=""></li>
+            </div>
+          </div>
+          <div class="stars">
+            <label for="star-1" class="star-1 fas fa-star"></label>
+            <label for="star-2" class="star-2 fas fa-star"></label>
+            <label for="star-3" class="star-3 fas fa-star"></label>
+            <label for="star-4" class="star-4 fas fa-star"></label>
+            <label for="star-5" class="star-5 fas fa-star"></label>
+          </div>
+        </div>
+        <div class="footer">
+          <span class="text"></span>
+          <span class="numb"></span>
+        </div>
+      </div>
+    
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact" style="margin-top: 100px;">
+
+    <h1 class="heading"> <span> contact </span> us </h1>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="number" placeholder="Number" class="box">
+            <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            
+            <a href="#" class="btn">send message</a>
+        </form>
+
+        <div class="image">
+            <img src="images/contact.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- map -->
+
+<div id="map" style="width: 90% " ><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=aptech%20garden%20center+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe></div>
+
+
+ <!-- Counting the numbers to go up responsive Code Start Here-->
+ <div id="counterup">
+
+    <div  class="container">
+        
+      <div  class="row">
+    
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div id="counter-color" style="margin-top: 30px;">
+              <i id="counter-i" class="fa fa-thumbs-o-up" style="color: #BC523B;"></i>
+              <span id="span-counter" class="counter">2147</span>
+              <p id="counter-p">Happy Customers</p>
+          </div>
+      </div>
+    
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div id="counter-color" style="margin-top: 30px;">
+              <i id="counter-i" class="fa fa-group" style="color: #BC523B;"></i>
+              <span id="span-counter" class="counter">3275</span>
+              <p id="counter-p">Registered Members</p>
+          </div></div>
+      
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div id="counter-color" style="margin-top: 30px;">
+              <i id="counter-i" class="fas fa-fan" style="color: #BC523B;"></i>
+              <span id="span-counter" class="counter">289</span>
+              <p id="counter-p">Available Products</p>
+          </div>
+        </div>
+      
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div id="counter-color" style="margin-top: 30px;">
+              <i id="counter-i" class="fa  fa-tree" style="color: #BC523B;"></i>
+              <span id="span-counter" class="counter">1563</span>
+              <p id="counter-p">Saved Trees</p>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    </div>
+    
+    <!--**********************End********************** -->
+    
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer" style="margin-top: 100px; margin-bottom: 100px;">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about us</a>
+            <a href="#products">gallery</a>
+            <a href="#popular">latest products</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>socail links</h3>
+            <a href="https://www.instagram.com/ubaidkhan__3/">contact ubaid ullah</a>
+            <a href="#">contact Ashywn</a>
+            <a href="https://www.instagram.com/2384_mark/">contact Mark Gill</a>
+            <a href="#">contact Ayesha</a>
+        </div>
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">pakistan  <i class='fas fa-star-and-crescent' style='color:green'></i></a>
+            <a href="#">USA  <i class='fas fa-flag-usa' style='color: blue ;opacity: 80%;'></i></a>
+            <a href="#">japan <span style="background: red ;width: 2px; height: 1px;"> <i class='fas fa-money-bill-wave-alt' style='color:white'></i></span></a>
+            <a href="#">canada  <i class='fab fa-canadian-maple-leaf' style='color:red'></i></a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">(+92) 21-111 278 324</a>
+            <a href="#">fanimation@gmail.com</a>
+            <a href="#"> APWA Complex, 1st Floor, Agha Khan 3 Rd, Garden East Saddar Town, Karachi, Sindh</a>
+            <img src="images/payment.png" alt="">
+            <!-- <a id="count" href="#" class="fas fa-eye"><span>0</span> </a><span style="font-size: 13px; font-weight: bold; color: #333;"> visiters</span>  -->
+
+            
+        </div>
+
+       
+    </div>
+
+
+    
+      
+    
+</section>
+<div id="testtime" style="background-color: #BC523B; color: white; margin-bottom: 20px;">
+    <marquee behavior="" direction="">
+      <div id="date" class=""  style="font-size: 30px;">
+        <span id='ct5'></span>
+        &nbsp; &nbsp; &nbsp; &nbsp; Latitude : &nbsp; &nbsp; <span id="latitude"></span>
+        &nbsp; &nbsp; &nbsp; &nbsp;longitude : &nbsp; &nbsp; <span id="longitude"></span>
+    </div>
+    </marquee>
+  </div>
+
+
+<!-- footer section ends -->
+
+
+
+<!-- Counter up Links Starts Here -->
+
+<!--First Link--> <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<!--Second Link-->   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<!--Third Link-->    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!--**********************End********************** -->
+   
+<script>
+    $('.counter').counterUp({
+delay: 10,
+time: 1000
+});
+</script>
+
+
+
+
+
+
+<script>
+
+    const countE1 = document.getElementById("count");
+    countvisit();
+    
+    
+    function countvisit()
+    {
+        fetch("https://api.countapi.xyz/update/mouse/laptop/?amount=1")
+        .then(res => res.json())
+        .then((res => {
+            countE1.innerHTML = res.value;
+        }));
+    }
+
+
+
+
+
+    //selecting all required elements
+const filterItem = document.querySelector(".items");
+const filterImg = document.querySelectorAll(".gallery .image");
+
+window.onload = ()=>{ //after window loaded
+  filterItem.onclick = (selectedItem)=>{ //if user click on filterItem div
+    if(selectedItem.target.classList.contains("item")){ //if user selected item has .item class
+      filterItem.querySelector(".active").classList.remove("active"); //remove the active class which is in first item
+      selectedItem.target.classList.add("active"); //add that active class on user selected item
+      let filterName = selectedItem.target.getAttribute("data-name"); //getting data-name value of user selected item and store in a filtername variable
+      filterImg.forEach((image) => {
+        let filterImges = image.getAttribute("data-name"); //getting image data-name value
+        //if user selected item data-name value is equal to images data-name value
+        //or user selected item data-name value is equal to "all"
+        if((filterImges == filterName) || (filterName == "all")){
+          image.classList.remove("hide"); //first remove the hide class from the image
+          image.classList.add("show"); //add show class in image
+        }else{
+          image.classList.add("hide"); //add hide class in image
+          image.classList.remove("show"); //remove show class from the image
+        }
+      });
+    }
+  }
+  for (let i = 0; i < filterImg.length; i++) {
+    filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
+  }
+}
+
+
+
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+  
+    } else {
+  
+    }
+  }
+  
+  function showPosition(position) {
+    document.getElementById('latitude').innerText = position.coords.latitude
+    document.getElementById('longitude').innerText = position.coords.longitude
+  }
+  getLocation()
+  
+  
+  
+  function display_ct5() {
+    var x = new Date()
+    var ampm = x.getHours() >= 12 ? ' PM' : 'AM';
+    var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getFullYear();
+    x1 = x1 + " - " + x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds() + ":" + ampm;
+    document.getElementById('ct5').innerHTML = x1;
+    display_c5();
+  }
+  
+  function display_c5() {
+    var refresh = 1000;
+    mytime = setTimeout('display_ct5', refresh)
+  }
+  display_c5()
+  
+  var datetime = new Date();
+  
+  $("#ct5").text("Date And Time :" + datetime)
+
+
+
+
+    </script>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+<!-- <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+
+
+
+    
+</body>
+</html>
